@@ -1,0 +1,17 @@
+SOC Log Anomaly Detection Evaluation Report
+=======================================================
+
+Total samples: 1567963
+Normal: 1534561
+Suspicious (heuristic): 33402
+
+Isolation Forest Accuracy: 0.9689
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98   1534561
+           1       0.28      0.30      0.29     33402
+
+    accuracy                           0.97   1567963
+   macro avg       0.63      0.64      0.64   1567963
+weighted avg       0.97      0.97      0.97   1567963
