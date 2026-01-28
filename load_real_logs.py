@@ -16,7 +16,6 @@ print("\nColumns:", df.columns.tolist())
 # ============================
 # Basic Cleaning
 # ============================
-
 # Fill missing values
 df.fillna(0, inplace=True)
 
